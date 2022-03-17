@@ -12,16 +12,16 @@ public class PrácticaVectores4 {
         int temperaturas [] = new int [23];
         temperaturas[0] = 22; //"La Plata, Bs. As."
         temperaturas[1] = 26; //"S.F. del Valle de Catamarca, Catamarca"
-        temperaturas[2] = 22; //"Resistencia, Chaco"
+        temperaturas[2] = 32; //"Resistencia, Chaco"
         temperaturas[3] = 21; //"Rawson, Chubut"
         temperaturas[4] = 22; //"Córdoba, Córdoba"
         temperaturas[5] = 23; //"Corrientes, Corrientes"
         temperaturas[6] = 22; //"Paraná, Entre Ríos"
-        temperaturas[7] = 23; //"Formosa, Formosa"
-        temperaturas[8] = 19; //"S.S. de Jujuy, Jujuy"
+        temperaturas[7] = 33; //"Formosa, Formosa"
+        temperaturas[8] = 39; //"S.S. de Jujuy, Jujuy"
         temperaturas[9] = 25; //"Santa Rosa, La Pampa"
-        temperaturas[10] = 27; //"La Rioja, La Rioja"
-        temperaturas[11] = 24; //"Mendoza, Mendoza"
+        temperaturas[10] = 37; //"La Rioja, La Rioja"
+        temperaturas[11] = 34; //"Mendoza, Mendoza"
         temperaturas[12] = 26; //"Posadas, Misiones"
         temperaturas[13] = 23; //"Neuquén, Neuquén"
         temperaturas[14] = 27; //"Viedma, Río Negro"
@@ -33,8 +33,10 @@ public class PrácticaVectores4 {
         temperaturas[20] = 25; //"Santiago del Estero, Santiago del Estero"
         temperaturas[21] = 2; //"Ushuaia, Tierra del Fuego"
         temperaturas[22] = 22; //"S.M. de Tucumán, Tucumán"
-                
-
+        
+        Arrays.sort(temperaturas);
+        for (int i = temperaturas.length-1; i >=18; i--) {
+            System.out.println(""+temperaturas[i]);
+        }
     }
-    
 }

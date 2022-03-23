@@ -7,11 +7,11 @@
     </head>
     <body>
         <h1>Datos de la Persona</h1>
-        <form action=" " method=" ">
+        <form action="SvPersona" method="POST">
             <p><label>DNI: </label> <input type="text" name="dni"></p>
             <p><label>Nombre: </label> <input type="text" name="nombre"></p>
-            <p><label>Apellido </label> <input type="text" name="apellido"></p>
-            <p><label>Teléfono</label> <input type="text" name="telefono"></p>
+            <p><label>Apellido: </label> <input type="text" name="apellido"></p>
+            <p><label>Teléfono: </label> <input type="text" name="telefono"></p>
             <button type="submit" >Enviar</button>
         </form>
         
